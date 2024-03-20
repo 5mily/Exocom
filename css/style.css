@@ -261,6 +261,7 @@ img {
     position: absolute;
     top: 2rem;
     right: -1rem;
+    padding-right: 0.5rem;
     display: grid;
     justify-items: center;
     row-gap: 3.5rem;
