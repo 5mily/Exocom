@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exocom</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!--custom css link-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css">
+
+    <!--icons link-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./images/Logo-color.svg" alt="">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#sustainability" class="nav__link">Sustainability</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- home -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="./images/home.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        for environment. <br> for safe. <br> for future.
+                    </h1>
+                    <p class="home__description">
+                        We go beyond recycling, pioneering upcycling to create products that redefine sustainable living by minimizing waste.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Explore <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+                <div class="home__translate">
+                    <span class="home__translate-language">Languages</span>
+                    <div class="home__translate-links">
+                        <a href="#" class="home__translate-link">
+                            EN
+                        </a>
+                        <a href="./korean.html" class="home__translate-link">
+                            KO
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about -->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <img src="./images/about.png" alt="" class="about__img">
+
+            <div class="about__data">
+                <h2 class="section_title about__title">
+                    Who we are
+                </h2>
+
+                <p class="about__description">
+                    Embark on a journey of innovation and sustainability with our premium recycled polyamide – meticulously upcycled and compounded for engineering excellence.
+                </p>
+
+                <div class="about__details">
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-circle-fill about__details-icon"></i>
+                        Innovative Upcycling & Compounding
+                    </p>
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-circle-fill about__details-icon"></i>
+                        Premium Recycled Polyamide
+                    </p>
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-circle-fill about__details-icon"></i>
+                        GRS & ISO Certified
+                    </p>
+                    <p class="about__details-description">
+                        <i class="ri-checkbox-circle-fill about__details-icon"></i>
+                        Eco-friendly solutions
+                    </p>
+                </div>
+
+                <a href="#products" class="button--link button--flex">
+                    Read more <i class="ri-arrow-right-down-line button__icon"></i>
+                </a>
+            </div>
+        </div>
+        </section>
+        <!-- products -->
+        <section class="products section container" id="products">
+            <div class="product__container">
+            <div class="steps__bg">
+                <h2 class="section_subhead steps__title">
+                    Building Futures, Beyond Boundaries.
+                </h2>
+
+                <h2 class="productlogo__title">
+                    LOCAMIDE
+                </h2>
+
+                <div class="steps__container grid">
+                    <div class="steps__card">
+                        <div class="steps__card-number">01</div>
+                        <h3 class="steps__card-title">Low-Carbon</h3>
+                        <p class="steps__card-description">Locamide are derived from pre-consumer waste, boast a low-carbon footprint, making a positive impact on the environment and advancing sustainability. </p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">02</div>
+                        <h3 class="steps__card-title">Reliable</h3>
+                        <p class="steps__card-description">Engineered and rigorously tested, our recycled polyamide plastics ensure reliable and consistent performance, meeting the highest standards of quality.</p>
+                    </div>
+
+                    <div class="steps__card">
+                        <div class="steps__card-number">03</div>
+                        <h3 class="steps__card-title">Sustainable</h3>
+                        <p class="steps__card-description">Designed to be environmentally responsible, they promote long-term planetary well-being while meeting stringent global recycling standards.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        <!-- product table -->
+        <section class="datatable">
+
+
+            <style>
+                .v-application--wrap {
+                  min-height: unset;
+                }
+
+                .v-data-table {
+                    border-radius: unset;
+                }
+                
+                .theme--light.v-data-table {
+                    background-color: unset;
+                    color: rgba(0,0,0,.87);
+                    padding: .25rem;
+                }
+                
+                .theme--light.v-application {
+                    background: unset;
+                    color: rgba(0,0,0,.87);
+                }
+                
+                #app {
+                    width: unset;
+                    max-width: 1080px;
+                    margin: 20px auto 0;
+                }
+                
+                .container {
+                    padding: 1rem;
+                }
+                
+                .v-application {
+                    font-family: var(--body-font);
+                    line-height: 1.5;
+                }
+                 </style>
+
+
+        
+        <div id="app">
+            <div class="product__datatable">
+            <div class="datatable__container container grid">
+                <h3 class="producttable_title">Product Data Table</h3>
+            </div>
+            <v-app>
+              <v-data-table 
+                :headers="headers"
+                :items="members"
+                :items-per-page="3"
+                :footer-props="{'items-per-page-options':[3,6,9]}"
+                hide-defalut-header
+              ></v-data-table>
+            </v-app>
+            
+
+            <div class="datatable__download datatable_button">
+                <a href="./Exocom_Locamide_Catalog.pdf" download class="button button--flex">
+                    Product Catalog <i class="ri-folder-download-line button__icon"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+
+    </section>
+    </section>
+
+
+        <!-- Sustainability -->
+        <section class="sustainability section" id="sustainability">
+            <h2 class="section_title-center sustainability__title container">
+                Sustainability Management
+            </h2>
+
+            <div class="sustainability__container container grid">
+                <div class="sustainability__group">   
+                <div class="sustainability__item">
+                        <header class="sustainability__header">
+                            <i class="ri-add-line sustainability__icon"></i>
+                            <h3 class="sustainability__item-title">
+                                Environmental Management Policy
+                            </h3>
+                        </header>
+
+                        <div class="sustainability__content">
+                            <p class="sustainability__description">
+                                At Exocom Inc., we are committed to fulfilling our social responsibility for environmental conservation. 
+                                We strive for continuous improvement by ensuring that each employee performs their role and responsibilities in line with this commitment. <br><br>
+                                <i class="ri-number-1"></i>. To prevent environmental pollution and promote efficient resource utilization, we practice the principles of Reuse, Recycle, and Reduce. <br><br>
+                                <i class="ri-number-2"></i>. We actively pursue the development of environmentally friendly products through environmentally conscious design and research and development. <br><br>
+                                <i class="ri-number-3"></i>. We promptly and actively respond to customer requirements and domestic and international environmental regulations, ensuring thorough advance preparations. <br><br>
+                                <i class="ri-number-4"></i>. We engage stakeholders in environmental management activities, promoting the exchange of opinions and maintaining a smooth flow of environmental information through regular education. <br><br>
+                                <i class="ri-number-5"></i>. We pursue continuous improvement through periodic reviews and enhancements of our environmental objectives and achievements. <br><br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sustainability__item">
+                        <header class="sustainability__header">
+                            <i class="ri-add-line sustainability__icon"></i>
+                            <h3 class="sustainability__item-title">
+                                Occupational Health and Safety Management Policy
+                            </h3>
+                        </header>
+
+                        <div class="sustainability__content">
+                            <p class="sustainability__description">
+                                At Exocom Inc., we prioritize the safety and health of all employees as our foremost value throughout our business operations. We have established an occupational health and safety management system that complies 
+                                with regulations and standards, ensuring that every employee can work in a safe and pleasant environment. To achieve this, we continuously strive to improve our occupational health and safety environment through the following activities: <br><br>
+                                <i class="ri-number-1"></i>. We establish an occupational health and safety management system within our workplace, providing sufficient human and material resources for identifying and controlling workplace hazards. <br><br>
+                                <i class="ri-number-2"></i>. We set occupational health and safety goals and develop detailed action plans to achieve them. <br><br>
+                                <i class="ri-number-3"></i>. We establish internal regulations that comply with occupational health and safety laws and related regulations and diligently enforce them. <br><br>
+                                <i class="ri-number-4"></i>. Through the participation of workers, we identify workplace hazards and ensure that they are promptly addressed. We also share this information through training and education. <br><br>
+                                <i class="ri-number-5"></i>. We ensure that all members of our organization are aware of the occupational hazards related to their job duties and provide training on hazard elimination, substitution, and control techniques. <br><br>
+                                <i class="ri-number-6"></i>. We require all suppliers and contractors to comply with our occupational health and safety policy and meet our safety requirements. <br><br>
+                                <i class="ri-number-7"></i>. All members of our organization are expected to fulfill their responsibilities and obligations regarding occupational health and safety activities. <br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sustainability__group">
+                    <div class="sustainability__item">
+                        <header class="sustainability__header">
+                            <i class="ri-add-line sustainability__icon"></i>
+                            <h3 class="sustainability__item-title">
+                                Human Rights Management Pledge
+                            </h3>
+                        </header>
+
+                        <div class="sustainability__content">
+                            <p class="sustainability__description">
+                                As a forward-thinking company, we acknowledge the collective responsibility of the nation, society, and business in human rights management. We integrate the principles of human rights, 
+                                centered around the protection of dignity and value, into our management approach. Guided by shared core values, we establish and diligently enforce policies to ensure ethical and legal compliance, 
+                                fulfilling our vital role as a business and meeting our social responsibilities. <br><br>
+                                <i class="ri-number-1"></i>. We respect and support international and domestic norms that promote values such as human rights, labor, environment, and anti-corruption, guaranteeing the freedom of association and collective bargaining to protect and enhance the human rights of our employees. <br><br>
+                                <i class="ri-number-2"></i>. We do not discriminate against employees based on disabilities, gender, race, religion, nationality, region, social status, education, age, or any other factors, and provide a working environment of mutual respect and consideration. <br><br>
+                                <i class="ri-number-3"></i>. We ensure a safe and hygienic working environment for our employees. <br><br>
+                                <i class="ri-number-4"></i>. We do not tolerate any form of forced labor or child labor. <br><br>
+                                <i class="ri-number-5"></i>. We comply with domestic and international environmental regulations, making efforts for environmental protection and disaster prevention. We strive to ensure the safety of the nation's citizens in our business activities and protect the personal information collected in the course of our work, guaranteeing consumer access to information. <br><br>
+                                <i class="ri-number-6"></i>. We respect and protect the human rights of residents in the local communities where our business activities take place. <br><br>
+                                <i class="ri-number-7"></i>. We make efforts to protect the human rights of all stakeholders, including employees, and commit to doing our best to fulfill this responsibility. <br><br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="sustainability__item">
+                        <header class="sustainability__header">
+                            <i class="ri-add-line sustainability__icon"></i>
+                            <h3 class="sustainability__item-title">
+                                Ethics Policy
+                            </h3>
+                        </header>
+
+                        <div class="sustainability__content">
+                            <p class="sustainability__description">
+                                All employees of Exocom Inc. have thoroughly familiarized themselves with the company's code of ethics and pledge to adhere to it conscientiously, embodying ethical values and performing their duties with integrity. 
+                                We are committed to establishing a culture of ethical management that aligns with the company's values. <br><br>
+                                <i class="ri-number-1"></i>. We actively participate in the pursuit of "Ethical Management" as envisioned by the company. <br><br>
+                                <i class="ri-number-2"></i>. Every employee pledges to diligently adhere to and strive to achieve the goals of ethical management. <br><br>
+                                <i class="ri-number-3"></i>. Every employee contributes to the enhancement of corporate values by maintaining a high level of ethical consciousness and conducting business activities in compliance with applicable laws and regulations. <br><br>
+                                <i class="ri-number-4"></i>. We strive for public prosperity by promoting integrity among all stakeholders and preventing corruption. <br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact section container" id="contact">
+
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section_title">
+                        Reach out to us today <br> via any of given <br> information
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Call us for instant support</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-fill contact__icon"></i>
+                                +82 31 332 7052
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Write us by email</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-fill contact__icon"></i>
+                                support@exocom.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" "class="contact__input">
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" "class="contact__input">
+                            <label for="" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <label for="" class="contact__label">Message</label>
+                        </div>
+                    </div>
+                    <button class="button button--flex">
+                        Send Message
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+                
+            </div>
+
+        </section>
+
+        
+    <!--footer-->
+    <footer class="footer section ">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="./images/Logo-color.svg" style="width:100px; height:auto;" alt="">
+                </a>
+
+                <h3 class="footer__outro">
+                    for environment. <br> for safe. <br> for future.
+                </h3>
+
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+                <ul class="footer__data">
+                    <li class="footer__information">8, Suse-ro 86beon-gil,</li>
+                    <li class="footer__information">Namsa-eup, Cheoin-gu, Yongin-si,</li>
+                    <li class="footer__information">Gyeonggi-do, South Korea.</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+                <ul class="footer__data">
+                    <li class="footer__information">Tel +82 31-332-7052</li>
+                    <li class="footer__information">Fax +82 31-334-7052</li>
+                </ul>
+            </div>
+         </div>
+
+         <p class="footer__copy">&#169; 5mily. All rights reserved.</p>
+    </footer>
+
+    <!--scroll up-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+
+
+    <!--main js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/2.4.8/vuetify.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="./js/main.js"></script>
+  
+
+
+</body>
+</html>
