@@ -166,13 +166,13 @@ const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
   duration: 2500,
-  delay: 400,
+  delay: 100,
   // reset: true
 })
 
 sr.reveal(`.home__data`)
-sr.reveal(`.home__img`, {delay: 500})
-sr.reveal(`.home__translate`, {delay: 600})
+sr.reveal(`.home__img`, {delay: 200})
+sr.reveal(`.home__translate`, {delay: 300})
 sr.reveal(`.about__img, .contact__box`, {origin: 'left'})
 sr.reveal(`.about__data, .contact__form`, {origin: 'right'})
-sr.reveal(`.steps__card, .sustainability__group, .footer`, {interval: '100'})
+sr.reveal(`.steps__card, .sustainability__group, .footer, .history__container, .history__address`, {interval: '100'})
