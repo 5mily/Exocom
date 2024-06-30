@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exocom - 엑소콤</title>
+    <title>Exocom - 엑소콤 | 업사이클링 & 컴파운딩</title>
     <!--favicon-->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!--custom css link-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <!--icons link-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
@@ -88,7 +89,36 @@
         <!-- about -->
         <section class="about section container" id="about">
             <div class="about__container grid">
-                <img src="./images/about.png" alt="" class="about__img">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./images/about_1.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_2.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_3.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_4.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_5.png" alt="" class="about-img">
+                      </div>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line swiper-next"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line swiper-prev"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
 
             <div class="about__data">
                 <h2 class="section_title about__title">
@@ -125,51 +155,11 @@
             <div class="history__content grid">
 
                 <div class="history__data grid">
-                    <h3 class="history__year">2007</h3>
+                    <h3 class="history__year">2012</h3>
 
                     <div>
                         <p class="history__description">
-                            에코텍알엠(주) 설립 (연간 600 Mt)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2008-2010</h3>
-
-                    <div>
-                        <p class="history__description">
-                            3개의 추가 압출기 추가 및 용량(재활용 기본 칩)을 위한 압출기 교체 (연간 3600 Mt)<br>ISO 14001 자체 인증 획득<br>ISO 9000 자체 인증 획득
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2016</h3>
-
-                    <div>
-                        <p class="history__description">
-                            GRS subunit for Hyosung
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2017</h3>
-
-                    <div>
-                        <p class="history__description">
-                            용량 증설을 위한 압출기 교체 (연간 6000 Mt)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2019</h3>
-
-                    <div>
-                        <p class="history__description">
-                            GRS 자체 인증 획득 (Ecotech RM)
+                            '(주)엑소콤' 설립
                         </p>
                     </div>
                 </div>
@@ -179,7 +169,7 @@
 
                     <div>
                         <p class="history__description">
-                            컴파운딩용 트윈 스크류 압출기 추가
+                            컴파운딩용 트윈 스크류 압출기 증설 <br> 연구개발전담부서 설립
                         </p>
                     </div>
                 </div>
@@ -189,10 +179,31 @@
 
                     <div>
                         <p class="history__description">
-                            GRS 자체 인증 획득 (Exocom)
+                            GRS 인증 획득 <br> ISO 14001(환경 경영 시스템) / ISO 9001(품질 경영 시스템) 인증 획득
                         </p>
                     </div>
                 </div>
+
+                <div class="history__data grid">
+                    <h3 class="history__year">2023</h3>
+
+                    <div>
+                        <p class="history__description">
+                            특허출원 '폐폴리아미드를 이용한 방열소재' (출원번호 10-2023-0180678)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="history__data grid">
+                    <h3 class="history__year">2024</h3>
+
+                    <div>
+                        <p class="history__description">
+                            기업부설연구소 설립
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -225,7 +236,7 @@
                     <div class="steps__card">
                         <div class="steps__card-number">01</div>
                         <h3 class="steps__card-title">저탄소</h3>
-                        <p class="steps__card-description">LOCAMIDE(로카미트)는 엑소콤의 리싸이클 시스템 관리를 통하여 생산되는 저탄소 친환경 제품입니다.</p>
+                        <p class="steps__card-description">LOCAMIDE(로카미드)는 엑소콤의 리싸이클 시스템 관리를 통하여 생산되는 저탄소 친환경 제품입니다.</p>
                     </div>
 
                     <div class="steps__card">
@@ -508,6 +519,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/2.4.8/vuetify.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./js/main.js"></script>
   

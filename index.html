@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Exocom</title>
+    <title>Exocom | Upcycling Plastics & Compounding</title>
     <!--favicon-->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!--custom css link-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
     <!--icons link-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.7.0/fonts/remixicon.css" rel="stylesheet">
@@ -88,7 +89,37 @@
         <!-- about -->
         <section class="about section container" id="about">
             <div class="about__container grid">
-                <img src="./images/about.png" alt="" class="about__img">
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./images/about_1.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_2.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_3.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_4.png" alt="" class="about-img">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./images/about_5.png" alt="" class="about-img">
+                      </div>
+
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class="ri-arrow-right-s-line swiper-next"></i>
+                    </div>
+
+                    <div class="swiper-button-prev">
+                        <i class="ri-arrow-left-s-line swiper-prev"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                  </div>
+
 
             <div class="about__data">
                 <h2 class="section_title about__title">
@@ -125,51 +156,11 @@
             <div class="history__content grid">
 
                 <div class="history__data grid">
-                    <h3 class="history__year">2007</h3>
+                    <h3 class="history__year">2012</h3>
 
                     <div>
                         <p class="history__description">
-                            Established Ecotech RM (600 Mt/ year)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2008-2010</h3>
-
-                    <div>
-                        <p class="history__description">
-                            Add 3 extruder & replce extruder for capacity(recycled base chip) (3600 Mt/ year)<br>Acquired ISO 14001 own certificate<br>Acquired ISO 9000 own certificate
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2016</h3>
-
-                    <div>
-                        <p class="history__description">
-                            GRS subunit for Hyosung
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2017</h3>
-
-                    <div>
-                        <p class="history__description">
-                            Replce extruder for capacity(6000 Mt/ year)
-                        </p>
-                    </div>
-                </div>
-
-                <div class="history__data grid">
-                    <h3 class="history__year">2019</h3>
-
-                    <div>
-                        <p class="history__description">
-                            Acquired GRS own certificate(Ecotech RM)
+                            Established EXOCOM
                         </p>
                     </div>
                 </div>
@@ -179,7 +170,7 @@
 
                     <div>
                         <p class="history__description">
-                            Add twin screw extruder for compouding product
+                            Add twin screw extruder for compouding product <br> Established R&D department
                         </p>
                     </div>
                 </div>
@@ -189,7 +180,27 @@
 
                     <div>
                         <p class="history__description">
-                            Acquired GRS own certificate(Exocom)
+                            Acquired GRS certificate <br> Acquired ISO 14001/ISO 9001
+                        </p>
+                    </div>
+                </div>
+
+                <div class="history__data grid">
+                    <h3 class="history__year">2023</h3>
+
+                    <div>
+                        <p class="history__description">
+                            Obtained a patent "Thermal Insulation Material Using Waste Polyamide" (Application No. 10-2023-0180678)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="history__data grid">
+                    <h3 class="history__year">2024</h3>
+
+                    <div>
+                        <p class="history__description">
+                            Established Corporate research institute
                         </p>
                     </div>
                 </div>
@@ -509,6 +520,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/2.4.8/vuetify.min.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="./js/main.js"></script>
   
